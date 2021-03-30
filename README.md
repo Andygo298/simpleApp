@@ -25,4 +25,4 @@
 	* копируем из папки AdderCalc в папку библиотеку calculator.jar:
 	copy AdderCalc\calculator.jar Helloworld\lib
 	* Запускаем исполняемый jar - helloworld.jar :
- 	```java -jar helloworld.jar```
+ 	`<java -jar helloworld.jar>`
