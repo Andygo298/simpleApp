@@ -15,9 +15,9 @@
 		```
 		javac -sourcepath src -d bin src/com/github/andygo298/calculator/AdderCalculator.java
 		```
-		где: в -sourcepath нужно указать компилятору каталог с исходными кодами классов (src)
-		       ```-d bin``` - папка куда будут определены скомпилированные файлы. 
-		       ```src/com/github/andygo298/calculator/AdderCalculator.java``` - путь к файлу(-лам) который необходимо скомпилировать
+		* где: в -sourcepath нужно указать компилятору каталог с исходными кодами классов (src)
+		      * ```-d bin``` - папка куда будут определены скомпилированные файлы. 
+		      * ```src/com/github/andygo298/calculator/AdderCalculator.java``` - путь к файлу(-лам) который необходимо скомпилировать
 * компилируем :
 	 javac -sourcepath src -d bin src/com/github/andygo298/calculator/AdderCalculator.java
 * создаем jar :
