@@ -16,7 +16,7 @@ How you can do it read [HERE](https://docs.oracle.com/en/java/javase/11/install/
 		```
 		javac -sourcepath src -d bin src/com/github/andygo298/calculator/AdderCalculator.java
 		```
-		* where: following```-sourcepath``` indicate to "javac" the directory with executable files (src)
+		* where: following```-sourcepath``` indicate to "javac" the directory with source files (src)
 			* ```-d bin``` - the destination directory to which these files will be compiled.
 			* ```src/com/github/andygo298/calculator/AdderCalculator.java``` - path to the file you want to compile.
 
