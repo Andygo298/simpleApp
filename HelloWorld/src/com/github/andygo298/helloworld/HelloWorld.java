@@ -12,6 +12,6 @@ public class HelloWorld{
 		AdderCalculator calc = new AdderCalculator();
 		
 		System.out.println("Hello World!");
-		System.out.println(operandFirst + "+" + operandSecond + "=" + calc.mult(operandFirst,operandSecond));
+		System.out.println(operandFirst + "+" + operandSecond + "=" + calc.sum(operandFirst,operandSecond));
 	}
 }
