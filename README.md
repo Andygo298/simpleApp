@@ -5,7 +5,7 @@
 	* Variable JAVA_HOME, which must point to directory where java was installed.
 	* Variable PATH . You should add path to the directory %JAVA_HOME%\bin. This variable indicates to the operating system a list of directories in which to search for executable files and you can run Java into cmd.
 
-How you can do it read [HERE](https://docs.oracle.com/javase/10/install/installation-jdk-and-jre-microsoft-windows-platforms.htm#JSJIG-GUID-BCE568C9-93D3-49F4-9B0C-9DD4A3419792)
+How you can do it read [HERE](https://docs.oracle.com/javase/10/install/installation-jdk-and-jre-microsoft-windows-platforms.htm#JSJIG-GUID-A7E27B90-A28D-4237-9383-A58B416071CA)
 
 * Download this project and unzip it on your PC.
 * Open cmd and move to the directory - AdderCalc.
