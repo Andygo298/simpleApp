@@ -31,17 +31,19 @@
 	```
 	* Перейти в каталог HelloWorld: ```cd HelloWorld```
 	* Собрать программу в исполняемый jar архив:
-		* echo main-class: com.github.andygo298.helloworld.HelloWorld>manifest.mf
-		* echo class-path: lib/calculator.jar >>manifest.mf
-		* создаем папку lib:
+		* Создать файл ```manifest.mf``` :
+			* ```echo main-class: com.github.andygo298.helloworld.HelloWorld>manifest.mf```
+			* ```echo class-path: lib/calculator.jar >>manifest.mf```
+		* Создать папку lib:
 		```
 		mkdir lib
 		```
-		* копируем из папки AdderCalc в папку библиотеку calculator.jar:
+		* Скопировать из папки AdderCalc в папку нашу библиотеку calculator.jar:
 		```
 		copy AdderCalc\calculator.jar Helloworld\lib
 		```
-		* Запускаем исполняемый jar - ```helloworld.jar``` :
+		* Запустить исполняемый jar - ```helloworld.jar``` :
  		```
 		java -jar helloworld.jar
 		```
+* Готово!
