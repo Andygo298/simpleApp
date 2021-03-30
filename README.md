@@ -15,15 +15,18 @@
 		```
 		javac -sourcepath src -d bin src/com/github/andygo298/calculator/AdderCalculator.java
 		```
-		* где: в -sourcepath нужно указать компилятору каталог с исходными кодами классов (src)
-		      * ```-d bin``` - папка куда будут определены скомпилированные файлы. 
-		      * ```src/com/github/andygo298/calculator/AdderCalculator.java``` - путь к файлу(-лам) который необходимо скомпилировать
-* компилируем :
-	 javac -sourcepath src -d bin src/com/github/andygo298/calculator/AdderCalculator.java
-* создаем jar :
-	 jar -cvf calculator.jar -C bin .
-* перемещаемся на папку ниже :
-	cd..
+		* где: в ```-sourcepath``` нужно указать компилятору каталог с исходными кодами классов (src)
+			* ```-d bin``` - папка куда будут определены скомпилированные файлы. 
+			* ```src/com/github/andygo298/calculator/AdderCalculator.java``` - путь к файлу(-лам) который необходимо скомпилировать.
+
+	* Создать jar :
+		* ```jar -cvf calculator.jar -C bin .```
+			* где:
+				* ```jar -cvf calculator.jar``` - создание jar с именем calculator и выводом информации в консоль.
+				* С помощью ключа -C мы запустили программу в каталоге bin.
+	* Перемещаемся на папку выше:
+	```cd..```
+
 * компилируем :
 	javac -sourcepath src -d HelloWorld/bin -classpath AdderCalc/calculator.jar HelloWorld/src/com/github/andygo298/helloworld/HelloWorld.java
 * переходим в HelloWorld :
