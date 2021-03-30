@@ -21,8 +21,15 @@
 * Собираем программу :
 	* echo main-class: com.github.andygo298.helloworld.HelloWorld>manifest.mf
 	* echo class-path: lib/calculator.jar >>manifest.mf
-	* mkdir lib (создаем папку lib)
+	* создаем папку lib:
+	```
+	mkdir lib
+	```
 	* копируем из папки AdderCalc в папку библиотеку calculator.jar:
+	```
 	copy AdderCalc\calculator.jar Helloworld\lib
-	* Запускаем исполняемый jar - helloworld.jar :
- 	`<java -jar helloworld.jar>`
+	```
+	* Запускаем исполняемый jar - ```helloworld.jar``` :
+ 	```
+	java -jar helloworld.jar
+	```
