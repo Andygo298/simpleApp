@@ -24,25 +24,24 @@
 			* где:
 				* ```jar -cvf calculator.jar``` - создание jar с именем calculator и выводом информации в консоль.
 				* С помощью ключа -C мы запустили программу в каталоге bin.
-	* Перемещаемся на папку выше:
-	```cd..```
-
-* компилируем :
+	* Перейти на папку выше: ```cd..```
+	* Скомпилировать java класс HelloWorld, указав в ```-classpath``` путь к нашей библиотеке и путь к файлу для компиляции:
+	```
 	javac -sourcepath src -d HelloWorld/bin -classpath AdderCalc/calculator.jar HelloWorld/src/com/github/andygo298/helloworld/HelloWorld.java
-* переходим в HelloWorld :
-	cd HelloWorld
-* Собираем программу :
-	* echo main-class: com.github.andygo298.helloworld.HelloWorld>manifest.mf
-	* echo class-path: lib/calculator.jar >>manifest.mf
-	* создаем папку lib:
 	```
-	mkdir lib
-	```
-	* копируем из папки AdderCalc в папку библиотеку calculator.jar:
-	```
-	copy AdderCalc\calculator.jar Helloworld\lib
-	```
-	* Запускаем исполняемый jar - ```helloworld.jar``` :
- 	```
-	java -jar helloworld.jar
-	```
+	* Перейти в каталог HelloWorld: ```cd HelloWorld```
+	* Собрать программу в исполняемый jar архив:
+		* echo main-class: com.github.andygo298.helloworld.HelloWorld>manifest.mf
+		* echo class-path: lib/calculator.jar >>manifest.mf
+		* создаем папку lib:
+		```
+		mkdir lib
+		```
+		* копируем из папки AdderCalc в папку библиотеку calculator.jar:
+		```
+		copy AdderCalc\calculator.jar Helloworld\lib
+		```
+		* Запускаем исполняемый jar - ```helloworld.jar``` :
+ 		```
+		java -jar helloworld.jar
+		```
