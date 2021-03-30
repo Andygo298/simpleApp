@@ -7,7 +7,16 @@
 
 Как это сделать можно прочитать [ТУТ](https://developernotes.ru/java/ustanovka-java-jdk-v-windows-i-linux-peremennaya-path-i-java-home)
 
-* открываем командную строку, и переходим в папку adderCalc
+* Скачать проект и разархивировать у себя на ПК.
+* В консоли перейти в папку проекта - AdderCalc.
+	* В папке содержатся несколько java классов из которых нужно создать библиотеку в виде jar архива, которую можно будет импользовать в любом проекте, для этого необходимо:
+	1. Скомпилировать java классы:
+		1. в командной строке выполнить 
+		```
+		javac -sourcepath src -d bin src/com/github/andygo298/calculator/AdderCalculator.java
+		```
+		где ...
+
 * компилируем :
 	 javac -sourcepath src -d bin src/com/github/andygo298/calculator/AdderCalculator.java
 * создаем jar :
